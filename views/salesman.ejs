@@ -5,23 +5,26 @@
 	<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <div style="padding: 500px 300px 100px;">
+    <div style="padding: 500px 250px 100px;">
 	    <form class="bs-example bs-example-form" role="form">
 	        <div class="input-group input-group-lg">
 	            <span class="input-group-addon">用户：</span>
-	            <input type="text" class="form-control" placeholder="营业员">
+	            <input type="text" class="form-control" id="name" placeholder="营业员">
 	        </div>
 	        <br>
 	        <div class="input-group input-group-lg">
 	            <span class="input-group-addon">密码：</span>
-	            <input type="text" class="form-control" placeholder="密码">
+	            <input type="text" class="form-control" id="pass"placeholder="密码">
 	        </div>
 	        <br>
 	        <div class="input-group">
-	            <button type="button" class="btn btn-success">登 录</button>
+	            <button type="button" id="login" class="btn btn-success">
+	            登 录</button>
 	        </div>
 	        
 	    </form>
 	</div>
+	<script type="text/javascript" src="jquery/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="javascripts/salesman.js"></script>
 </body>
 </html>
